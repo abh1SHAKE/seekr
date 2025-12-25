@@ -52,7 +52,7 @@ func main() {
 		return
 	}
 
-	fmt.Println("-- Search Results --")
+	fmt.Println("--- Search Results ---")
 	for _, id := range matchedIDs {
 		doc := docs[id]
 		fmt.Printf("[%d] %s\n", id, doc.Text)
